@@ -6,5 +6,9 @@
         xmlns:local="clr-namespace:OP1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid/>
+    <Grid>
+        <TextBlock Width="200px" Height="40px" FontSize="20px" Margin="26,0,0,0">Som:</TextBlock>
+        <TextBox Width="180px" Height="40px" Margin="0,100,0,0"></TextBox>
+        <Button Width="200px" Height="40" Margin="0,250,0,0" Content="Check berekening" FontSize="16"></Button>
+    </Grid>
 </Window>
