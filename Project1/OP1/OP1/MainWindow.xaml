@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OP1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="400">
     <Grid>
-        <TextBlock Width="200px" Height="40px" FontSize="20px" Margin="26,0,0,0">Som:</TextBlock>
-        <TextBox Width="180px" Height="40px" Margin="0,100,0,0"></TextBox>
-        <Button Width="200px" Height="40" Margin="0,250,0,0" Content="Check berekening" FontSize="16"></Button>
+        <TextBlock Width="200px" Height="40px" FontSize="20px" Margin="100,93,100,301" Text=""/>
+        <TextBox Width="180px" Height="40px" Margin="110,177,110,217"></TextBox>
+        <Button Width="200px" Height="40" Margin="100,237,100,157" Content="Check berekening" FontSize="16" Click="Button_Click"></Button>
     </Grid>
 </Window>
