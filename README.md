@@ -1,2 +1,2 @@
 # OP1
-Project Intro-DevOps
+Oefenproject Git: Intro to DevOps
