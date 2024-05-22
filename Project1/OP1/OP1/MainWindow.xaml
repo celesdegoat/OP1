@@ -5,10 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OP1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="400">
+        Title="MainWindow" Height="450" Width="300"
+        Loaded="Window_Loaded"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        <TextBlock Width="200px" Height="40px" FontSize="20px" Margin="100,93,100,301" Text=""/>
-        <TextBox Width="180px" Height="40px" Margin="110,177,110,217"></TextBox>
-        <Button Width="200px" Height="40" Margin="100,237,100,157" Content="Check berekening" FontSize="16" Click="Button_Click"></Button>
+        <TextBlock x:Name="tbNiveauSpeler" HorizontalAlignment="Right" VerticalAlignment="Top" Width="120px" Height="20px" TextAlignment="Left" FontSize="15px">Huidig niveau: 0</TextBlock>
+        <TextBlock Width="200px" Height="30px" TextAlignment="Center" FontSize="18px" Margin="0,0,0,320">Rekenmeester: 5 niveaus</TextBlock>
+        <Button x:Name="btnGenereerSom" Width="145px" Height="35px" Content="Genereer som" FontSize="18px" Margin="0,0,0,210" Click="btnGenereerSom_Click"></Button>
+        <TextBlock Width="45px" Height="25px" TextAlignment="Center" FontSize="18px" Margin="0,0,0,110">Som:</TextBlock>
+        <TextBlock x:Name="tbSom" Width="200px" Height="40px" TextAlignment="Center" FontSize="20px" Margin="0,0,0,20"/>
+        <TextBlock Width="100px" Height="30px" TextAlignment="Center" FontSize="18px" Margin="0,70,0,0">Antwoord:</TextBlock>
+        <TextBox x:Name="tbAntwoord" Width="180px" Height="30px" TextAlignment="Center" FontSize="20px" Margin="0,150,0,0"></TextBox>
+        <Button x:Name="btnCheckBerekening" Width="175px" Height="35px" Content="Check berekening" FontSize="18px" Margin="0,270,0,0" IsDefault="True" Click="btnCheckBerekening_Click"></Button>
     </Grid>
 </Window>

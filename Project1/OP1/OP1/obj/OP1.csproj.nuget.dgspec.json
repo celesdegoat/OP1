@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\celes\\Source\\Repos\\OP1\\Project1\\OP1\\OP1\\OP1.csproj": {}
+    "C:\\Users\\Niek8\\OneDrive - Summacollege O365\\Intro to DevOps\\oefenproject_git\\Project1\\OP1\\OP1\\OP1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\celes\\Source\\Repos\\OP1\\Project1\\OP1\\OP1\\OP1.csproj": {
+    "C:\\Users\\Niek8\\OneDrive - Summacollege O365\\Intro to DevOps\\oefenproject_git\\Project1\\OP1\\OP1\\OP1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\celes\\Source\\Repos\\OP1\\Project1\\OP1\\OP1\\OP1.csproj",
+        "projectUniqueName": "C:\\Users\\Niek8\\OneDrive - Summacollege O365\\Intro to DevOps\\oefenproject_git\\Project1\\OP1\\OP1\\OP1.csproj",
         "projectName": "OP1",
-        "projectPath": "C:\\Users\\celes\\Source\\Repos\\OP1\\Project1\\OP1\\OP1\\OP1.csproj",
-        "packagesPath": "C:\\Users\\celes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\celes\\Source\\Repos\\OP1\\Project1\\OP1\\OP1\\obj\\",
+        "projectPath": "C:\\Users\\Niek8\\OneDrive - Summacollege O365\\Intro to DevOps\\oefenproject_git\\Project1\\OP1\\OP1\\OP1.csproj",
+        "packagesPath": "C:\\Users\\Niek8\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Niek8\\OneDrive - Summacollege O365\\Intro to DevOps\\oefenproject_git\\Project1\\OP1\\OP1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\celes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Niek8\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
